@@ -1,0 +1,1 @@
+# Este archivo va a recibir config y va a leerlo y printearlo para el usuario al ejecutar el programa
