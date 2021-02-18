@@ -20,4 +20,3 @@ leerConfig <- function(path){
   })
   return(config)
 }
-path <- getwd()
