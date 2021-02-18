@@ -1,16 +1,15 @@
-lapply(c("dummies", "logging", "xgboost", "XML"), require, character.only = T)
 
-Directorio <- getwd()
+# main
 
-setwd(Directorio)
-carpetaScripts <- paste0(Directorio, "/R/")
+# directory set up
+directory <- ("/datascience/R_projects/R_Project")
 
-#List files nos devuelve los archivos dentro del directorio.
+setwd(directory)
 
-lapply(paste0(list.files(Directorio, path = "/R", recursive = TRUE)), source)
+lapply(paste0("R/", list.files(path = "R/", recursive = TRUE)), source)
 
-#debug(clasificarContactosApp)
 
-clasificarContactosApp(Directorio)
-
-#undebug(clasificarContactosApp)
+# Debugging and unbugging
+debug(skeleton)
+skeleton(directory)
+undebug(skeleton)

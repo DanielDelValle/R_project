@@ -1,7 +1,18 @@
-<config>  
-<input>
-    <csv>oil_consumption_total.csv</csv>
-    <sep>,</sep>
-    <encoding>UFC-8</encoding>
-  </input>  
-</config> 
+
+<config>
+  <sep>,</sep>
+  <data>
+      
+    <predictors>oil_consumption_total.csv<predictors>
+    <target>economic_growth_over_the_past_10_years.csv</target>
+      
+    <prediction>
+      <country>Russia</country>
+      <year>2004</year>
+    </prediction>
+    
+  </data>
+  
+  <testRate>0.2</testRate>
+  <outputFile>output</outputFile>
+</config>
