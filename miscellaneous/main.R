@@ -14,3 +14,8 @@ lapply(paste0(list.files(Directorio, path = "/R", recursive = TRUE)), source)
 clasificarContactosApp(Directorio)
 
 #undebug(clasificarContactosApp)
+
+#leer config y leer data
+config <- leerConfig(path)
+
+datos <- csv_reader(config, path)
