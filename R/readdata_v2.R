@@ -2,8 +2,6 @@ csv_reader <- function(config, path){
   
   pathDatos <- paste0(path, "/data/", config$input$csv)
   
-  browser()
-  
   tryCatch(expr = {
     
     datos <- data.table::fread(pathDatos, sep = config$input$sep, encoding = 'UTF-8',

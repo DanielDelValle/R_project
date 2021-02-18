@@ -1,0 +1,161 @@
+2021-02-18 17:09:44 INFO:log:Inicio programa
+2021-02-18 17:09:44 INFO:log:Leyendo config
+2021-02-18 17:09:44 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:09:44 INFO:log:Fin de la ejecucion.
+2021-02-18 17:11:03 INFO:log:Inicio programa
+2021-02-18 17:11:03 INFO:log:Leyendo config
+2021-02-18 17:11:03 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:11:03 INFO:log:Fin de la ejecucion.
+2021-02-18 17:17:47 INFO:log:Inicio programa
+2021-02-18 17:17:47 INFO:log:Leyendo config
+2021-02-18 17:17:47 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:17:47 INFO:log:Fin de la ejecucion.
+2021-02-18 17:18:27 INFO:log:Inicio programa
+2021-02-18 17:18:27 INFO:log:Leyendo config
+2021-02-18 17:18:27 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:18:27 INFO:log:Fin de la ejecucion.
+2021-02-18 17:24:05 INFO:log:Inicio programa
+2021-02-18 17:24:05 INFO:log:Leyendo config
+2021-02-18 17:24:05 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:24:05 INFO:log:Fin de la ejecucion.
+2021-02-18 17:25:15 INFO:log:Inicio programa
+2021-02-18 17:25:15 INFO:log:Leyendo config
+2021-02-18 17:25:15 INFO:log:Config leido
+2021-02-18 17:25:15 INFO:log:Leyendo datos
+2021-02-18 17:27:10 INFO:log:Datos leidos
+2021-02-18 17:27:10 INFO:log:Fin de la ejecucion.
+2021-02-18 17:45:41 INFO:log:Inicio programa
+2021-02-18 17:45:41 INFO:log:Leyendo config
+2021-02-18 17:45:41 INFO:log:Config leido
+2021-02-18 17:45:41 INFO:log:Leyendo datos
+2021-02-18 17:45:57 INFO:log:Datos leidos
+2021-02-18 17:45:57 INFO:log:Cargando en modelo de ML
+2021-02-18 17:45:59 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:45:59 INFO:log:Fin de la ejecucion.
+2021-02-18 17:55:04 INFO:log:Inicio programa
+2021-02-18 17:55:04 INFO:log:Leyendo config
+2021-02-18 17:55:04 INFO:log:Config leido
+2021-02-18 17:55:04 INFO:log:Leyendo datos
+2021-02-18 17:55:13 INFO:log:Datos leidos
+2021-02-18 17:55:13 INFO:log:Cargando modelo de ML
+2021-02-18 17:55:13 INFO:log:Modelo de ML generado
+2021-02-18 17:55:13 INFO:log:Generar output
+2021-02-18 17:55:13 ERROR:log:Saving failed!
+2021-02-18 17:55:13 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:55:13 INFO:log:Fin de la ejecucion.
+2021-02-18 17:56:02 INFO:log:Inicio programa
+2021-02-18 17:56:02 INFO:log:Leyendo config
+2021-02-18 17:56:02 INFO:log:Config leido
+2021-02-18 17:56:02 INFO:log:Leyendo datos
+2021-02-18 17:56:07 INFO:log:Datos leidos
+2021-02-18 17:56:07 INFO:log:Cargando modelo de ML
+2021-02-18 17:56:07 INFO:log:Modelo de ML generado
+2021-02-18 17:56:07 INFO:log:Generar output
+2021-02-18 17:56:07 ERROR:log:Saving failed!
+2021-02-18 17:56:07 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 17:56:07 INFO:log:Fin de la ejecucion.
+2021-02-18 18:03:23 INFO:log:Inicio programa
+2021-02-18 18:03:23 INFO:log:Leyendo config
+2021-02-18 18:03:23 INFO:log:Config leido
+2021-02-18 18:03:23 INFO:log:Leyendo datos
+2021-02-18 18:03:27 INFO:log:Datos leidos
+2021-02-18 18:03:27 INFO:log:Cargando modelo de ML
+2021-02-18 18:03:27 INFO:log:Modelo de ML generado
+2021-02-18 18:03:27 INFO:log:Generar output
+2021-02-18 18:03:27 INFO:log:Output generado
+2021-02-18 18:03:27 INFO:log:Fin de la ejecucion.
+2021-02-18 18:05:28 INFO:log:Inicio programa
+2021-02-18 18:05:28 INFO:log:Leyendo config
+2021-02-18 18:05:28 INFO:log:Config leido
+2021-02-18 18:05:28 INFO:log:Leyendo datos
+2021-02-18 18:05:41 INFO:log:Datos leidos
+2021-02-18 18:05:41 INFO:log:Cargando modelo de ML
+2021-02-18 18:05:41 INFO:log:Modelo de ML generado
+2021-02-18 18:05:41 INFO:log:Generar output
+2021-02-18 18:05:41 INFO:log:Output generado
+2021-02-18 18:05:41 INFO:log:Fin de la ejecucion.
+2021-02-18 18:11:27 INFO:log:Inicio programa
+2021-02-18 18:11:27 INFO:log:Leyendo config
+2021-02-18 18:11:27 INFO:log:Config leido
+2021-02-18 18:11:27 INFO:log:Leyendo datos
+2021-02-18 18:11:27 INFO:log:Datos leidos
+2021-02-18 18:11:27 INFO:log:Cargando modelo de ML
+2021-02-18 18:11:29 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:11:29 INFO:log:Fin de la ejecucion.
+2021-02-18 18:15:32 INFO:log:Inicio programa
+2021-02-18 18:15:32 INFO:log:Leyendo config
+2021-02-18 18:15:32 INFO:log:Config leido
+2021-02-18 18:15:32 INFO:log:Leyendo datos
+2021-02-18 18:15:32 INFO:log:Datos leidos
+2021-02-18 18:15:32 INFO:log:Cargando modelo de ML
+2021-02-18 18:17:18 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:17:18 INFO:log:Fin de la ejecucion.
+2021-02-18 18:23:19 INFO:log:Inicio programa
+2021-02-18 18:23:19 INFO:log:Leyendo config
+2021-02-18 18:23:19 INFO:log:Config leido
+2021-02-18 18:23:19 INFO:log:Leyendo datos
+2021-02-18 18:23:19 INFO:log:Datos leidos
+2021-02-18 18:23:19 INFO:log:Cargando modelo de ML
+2021-02-18 18:23:34 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:23:34 INFO:log:Fin de la ejecucion.
+2021-02-18 18:37:54 INFO:log:Inicio programa
+2021-02-18 18:37:54 INFO:log:Leyendo config
+2021-02-18 18:37:54 INFO:log:Config leido
+2021-02-18 18:37:54 INFO:log:Leyendo datos
+2021-02-18 18:37:54 INFO:log:Datos leidos
+2021-02-18 18:37:54 INFO:log:Cargando modelo de ML
+2021-02-18 18:38:02 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:38:02 INFO:log:Fin de la ejecucion.
+2021-02-18 18:39:33 INFO:log:Inicio programa
+2021-02-18 18:39:33 INFO:log:Leyendo config
+2021-02-18 18:39:33 INFO:log:Config leido
+2021-02-18 18:39:33 INFO:log:Leyendo datos
+2021-02-18 18:39:33 INFO:log:Datos leidos
+2021-02-18 18:39:33 INFO:log:Cargando modelo de ML
+2021-02-18 18:39:49 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:39:49 INFO:log:Fin de la ejecucion.
+2021-02-18 18:40:56 INFO:log:Inicio programa
+2021-02-18 18:40:56 INFO:log:Leyendo config
+2021-02-18 18:40:56 INFO:log:Config leido
+2021-02-18 18:40:56 INFO:log:Leyendo datos
+2021-02-18 18:40:56 INFO:log:Datos leidos
+2021-02-18 18:40:56 INFO:log:Cargando modelo de ML
+2021-02-18 18:41:01 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:41:01 INFO:log:Fin de la ejecucion.
+2021-02-18 18:48:42 INFO:log:Inicio programa
+2021-02-18 18:48:42 INFO:log:Leyendo config
+2021-02-18 18:48:42 INFO:log:Config leido
+2021-02-18 18:48:42 INFO:log:Leyendo datos
+2021-02-18 18:48:42 INFO:log:Datos leidos
+2021-02-18 18:48:42 INFO:log:Cargando modelo de ML
+2021-02-18 18:48:47 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:48:47 INFO:log:Fin de la ejecucion.
+2021-02-18 18:50:15 INFO:log:Inicio programa
+2021-02-18 18:50:15 INFO:log:Leyendo config
+2021-02-18 18:50:15 INFO:log:Config leido
+2021-02-18 18:50:15 INFO:log:Leyendo datos
+2021-02-18 18:50:15 INFO:log:Datos leidos
+2021-02-18 18:50:15 INFO:log:Cargando modelo de ML
+2021-02-18 18:50:19 INFO:log:Resumen de modelo de ML
+2021-02-18 18:50:19 ERROR:log:ERROR, ERROR, ERROR
+2021-02-18 18:50:19 INFO:log:Fin de la ejecucion.
+2021-02-18 19:12:18 INFO:log:Inicio programa
+2021-02-18 19:12:18 INFO:log:Leyendo config
+2021-02-18 19:12:18 INFO:log:Config leido
+2021-02-18 19:12:18 INFO:log:Leyendo datos
+2021-02-18 19:12:18 INFO:log:Datos leidos
+2021-02-18 19:12:18 INFO:log:Cargando modelo de ML
+2021-02-18 19:12:18 INFO:log:Modelo de ML generado
+2021-02-18 19:12:18 INFO:log:Generar output
+2021-02-18 19:12:18 INFO:log:Output generado
+2021-02-18 19:12:18 INFO:log:Fin de la ejecucion.
+2021-02-18 19:16:33 INFO:log:Inicio programa
+2021-02-18 19:16:33 INFO:log:Leyendo config
+2021-02-18 19:16:33 INFO:log:Config leido
+2021-02-18 19:16:33 INFO:log:Leyendo datos
+2021-02-18 19:16:33 INFO:log:Datos leidos
+2021-02-18 19:16:33 INFO:log:Cargando modelo de ML
+2021-02-18 19:16:33 INFO:log:Modelo de ML generado
+2021-02-18 19:16:33 INFO:log:Generar output
+2021-02-18 19:16:33 INFO:log:Output generado
+2021-02-18 19:16:33 INFO:log:Fin de la ejecucion.
