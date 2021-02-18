@@ -1,12 +1,12 @@
 csv_reader <- function(config, path){
   
-  pathDatos <- paste0(path, "data/", config$input$name) 
+  pathDatos <- paste0(path, "/data/", config$input$csv)
   
   browser()
   
   tryCatch(expr = {
     
-    datos <-data.table::fread(pathDatos, sep = config$input$sep, encoding = 'UTF-8',
+    datos <- data.table::fread(pathDatos, sep = config$input$sep, encoding = 'UTF-8',
                               data.table = FALSE)
     
   }, error = function(e){
@@ -17,7 +17,7 @@ csv_reader <- function(config, path){
   })
   if (nrow(datos) == 0 | ncol(datos) == 0){
     
-    logerror("Datos mal leidos, verifica que tengan el formato correcto.",
+    logerror("Config no encontrado en su ruta. Verifica que se llama config.xml",
              logger = 'log')
     stop()
     
@@ -26,3 +26,5 @@ csv_reader <- function(config, path){
   return(datos)
   
 }
+
+
