@@ -1,5 +1,4 @@
 skeleton <- function (path){
-  path <- "/Users/Anais/Documents/R/Final_project/R_project"
   tryCatch(expr = {
     
     library(logging)
