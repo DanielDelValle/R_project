@@ -183,3 +183,8 @@
 2021-02-19 10:30:46 INFO:log:Generar output
 2021-02-19 10:30:46 INFO:log:Output generado
 2021-02-19 10:30:46 INFO:log:Fin de la ejecucion.
+2021-02-19 11:20:36 INFO:log:Inicio programa
+2021-02-19 11:20:36 INFO:log:Leyendo config
+2021-02-19 11:20:39 ERROR:log:Config no encontrado en su ruta. Verifica que se llama config.xml
+2021-02-19 11:20:39 ERROR:log:ERROR, ERROR, ERROR
+2021-02-19 11:20:41 INFO:log:Fin de la ejecucion.
