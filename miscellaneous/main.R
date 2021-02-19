@@ -1,16 +1,14 @@
-lapply(c("dummies", "logging", "xgboost", "XML"), require, character.only = T)
+
+path <- getwd()
 
 Directorio <- getwd()
 
 setwd(Directorio)
-carpetaScripts <- paste0(Directorio, "/R/")
 
-#List files nos devuelve los archivos dentro del directorio.
+carpetaScripts <- paste0(Directorio, "R/")
 
-lapply(paste0("R/", list.files(path = "/R/", recursive = TRUE)), source)
+# la siguiente línea hace que se ejecuten todas las funciones dentro de la carpeta R
 
-#debug(clasificarContactosApp)
+lapply(paste0("R/", list.files(path = "R/", recursive = TRUE)), source)
 
-clasificarContactosApp(Directorio)
-
-#undebug(clasificarContactosApp)
+skeleton(path)
