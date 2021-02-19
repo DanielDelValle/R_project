@@ -14,8 +14,13 @@ skeleton <- function (path){
     
     #Lectura de datos
     loginfo("Leyendo datos", logger = 'log')
-    df_1 <- csv_reader(config, path)
+    datos <- csv_reader(config, path)
     loginfo("Datos leidos", logger = 'log')
+    
+    #Procesamiento de datos
+    loginfo("Procesando datos", logger = 'log')
+    df_1 <- process_data(datos)
+    loginfo("Datos procesados", logger = 'log')
     
     #Carga de modelo de ML
     loginfo("Cargando modelo de ML", logger = 'log')
