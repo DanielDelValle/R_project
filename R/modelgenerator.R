@@ -1,35 +1,90 @@
-# Aqui vamos a recibir el dataframe limpio que devuelve procesdata para aplicarle el modelo
-#aplicandole los splits, regresiones, etc.
-# Esta funcion tiene que devolver un modelo.
+# WEEK 11 - day 4 Caret
 
-to_ML <- function(df_1, config){
-  
-  browser()
-  
-  library(caret)
-  library(logging)
-  
-  df_orig <- data.frame(df_1[1])
-  predict_y <- data.frame(df_1[2])
-  # Separacion del train y test
-  validation_index <- createDataPartition(df_orig[, ncol(df_orig)], p=0.80, list=FALSE)
-  test_df <- df_orig[-validation_index,]
-  train_df <- df_orig[validation_index,]
-  
-  # Simple linear regression model (lm means linear model)
-  # EL PROBLEMA ESTÁ EN ESTA LÍNEA, PERO NO CONSIGO SABER CUAL ES, HE DEJADO UN RECORTE DEL ERROR EN DISCORD
-  model_1 <- train( train_df[,3:(ncol(train_df)-1)], train_df[, ncol(train_df)], method = 'xgboost')
-  
-  loginfo("Resumen de modelo de ML", logger = 'log')
-  
-  predict_test <- predict(model_1, test_df[,3:(ncol(test_df)-1)])
-  
-  loginfo("Resumen de modelo de ML terminado", logger = 'log')
-  
-  RMSE <- sqrt(mean((predict_test - test_df[, ncol(train_df)])^2))
-  
-  resultado <- predict(model_1, predict_y) 
-  predict_y[, ncol(predict_y)] <- resultado
-  output <- predict_y
-  return(output)
-}
+# tarda mucho en instalarse
+# install.packages("caret",  dependencies = c("Depends", "Suggests"))
+library(caret)
+library(ggplot2)
+library(lattice)
+
+#####################
+# Linear Regression #
+#####################
+
+data(mtcars)
+head(mtcars)
+?mtcars
+# mpg --> Miles/(US) gallon <-- variable dependiente (a predecir)
+# wt --> Weight (1000 lbs) <-- variable independiente
+
+set.seed(42)
+
+# ploteamos ambas variables
+
+plot(x = mtcars$wt, y = mtcars$mpg)
+
+# creamos la regresión linear con R
+# mpg ~ .
+
+fit <- lm(mpg ~ wt, data = mtcars)
+
+# ploteamos el modelo generado
+# abline -> This function adds one or more straight lines through the current plot.
+abline(fit)
+
+# para conocer los datos de entrenamiento
+# https://feliperego.github.io/blog/2015/10/23/Interpreting-Model-Output-In-R
+summary(fit)
+
+# añadimos la ecuacion al plot
+bs <- round(coef(fit), 3) 
+lmlab <- paste0("mpg = ", bs[1],
+                ifelse(sign(bs[2])==1, " + ", " - "), abs(bs[2]), " wt ")
+mtext(lmlab, 3, line=-2) 
+
+
+## USANDO CARET
+
+# dividimos train/test
+# indicamos cual es la variable a predecir
+inTrain <- createDataPartition(y = mtcars$mpg, p = 0.6, list = FALSE)
+
+training <- mtcars[inTrain,]
+test <- mtcars[-inTrain,]
+
+dim(training)
+dim(test)
+
+# ploteamos los datos de entrenamiento
+plot(x= training$wt, y = training$mpg)
+
+# entrenamos el modelo
+# el resultado sera similar a lo hecho anteriormente
+# virgulilla
+fit_train <- train(mpg ~ wt, data= training, method = 'lm', metric="RMSE")
+fit_train$finalModel
+
+# ploteamos el modelo generado
+pred_carstrain <- predict(fit_train, newdata = training)
+
+
+lines(x = training$wt, y = pred_carstrain)
+
+# calculamos el error RMSE
+cal_rmse <- RMSE(pred_carstrain, training$mpg)
+
+
+# ploteamos los datos de test
+plot(x = test$wt, y=test$mpg)
+
+# predecimos con el conjunto de test
+
+pred_carstest <- predict(fit_train, newdata=test)
+# ploteamos la predicción sobre el test
+lines(x=test$wt, y=pred_carstest )
+
+# evaluamos con test 
+comparing <- data.frame(pred = pred_carstest, real = test$mpg)
+
+# calculamos error
+postResample(pred_carstest, test$mpg)
+

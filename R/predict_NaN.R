@@ -23,8 +23,8 @@ skeleton <- function (path){
     
     #Carga de modelo de ML
     loginfo("Cargando modelo de ML", logger = 'log')
-    # output <- to_ML(df_1, config)
-    output <- df_1
+    output <- to_ML(df_1, config)
+    #output <- df_1
     loginfo("Modelo de ML generado", logger = 'log')
     
     #Generar output
