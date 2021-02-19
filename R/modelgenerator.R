@@ -25,7 +25,7 @@ to_ML <- function(df_1, config){
   train_df <- df_orig[validation_index,]
   
   
-  # Simple linear regression model (lm means linear model)
+  # Simple linear regression model (lm means linear model, o en este caso "xgboost")
   model_1 <- train( train_df[,3:(ncol(train_df)-1)], train_df[, ncol(train_df)], method = 'xgboost')
   
   loginfo("Resumen de modelo de ML", logger = 'log')
