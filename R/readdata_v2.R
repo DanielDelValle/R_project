@@ -4,7 +4,7 @@ csv_reader <- function(config, path){
   
   tryCatch(expr = {
     
-    datos <- read.csv(pathDatos, sep = config$input$sep, encoding = 'UTF-8')
+    datos <- read.csv(pathDatos, sep = config$input$sep, encoding = config$input$encoding)
     
   }, error = function(e){
     

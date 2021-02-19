@@ -183,3 +183,15 @@
 2021-02-19 10:30:46 INFO:log:Generar output
 2021-02-19 10:30:46 INFO:log:Output generado
 2021-02-19 10:30:46 INFO:log:Fin de la ejecucion.
+2021-02-19 10:40:54 INFO:log:Inicio programa
+2021-02-19 10:40:54 INFO:log:Leyendo config
+2021-02-19 10:40:54 INFO:log:Config leido
+2021-02-19 10:40:54 INFO:log:Leyendo datos
+2021-02-19 10:40:54 INFO:log:Datos leidos
+2021-02-19 10:40:54 INFO:log:Procesando datos
+2021-02-19 10:40:54 INFO:log:Datos procesados
+2021-02-19 10:40:54 INFO:log:Cargando modelo de ML
+2021-02-19 10:40:54 INFO:log:Modelo de ML generado
+2021-02-19 10:40:54 INFO:log:Generar output
+2021-02-19 10:40:54 INFO:log:Output generado
+2021-02-19 10:40:54 INFO:log:Fin de la ejecucion.
