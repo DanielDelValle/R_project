@@ -1,7 +1,0 @@
-<config>  
-<input>
-    <csv>oil_consumption_total.csv</csv>
-    <sep>,</sep>
-    <encoding>UFC-8</encoding>
-  </input>  
-</config> 
